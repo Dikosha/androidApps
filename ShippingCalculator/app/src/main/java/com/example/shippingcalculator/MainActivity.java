@@ -54,8 +54,8 @@ public class MainActivity extends AppCompatActivity {
                     baseCost = 0;
                     addedCost = 0;
                 }
-                baseCostTV.setText(String.valueOf(baseCost) + "$");
-                addedCostTv.setText(String.valueOf(addedCost) + "$");
+                baseCostTV.setText(baseCost + "$");
+                addedCostTv.setText(addedCost + "$");
                 totalCostTV.setText(String.valueOf(baseCost+ addedCost) + "$");
             }
         });
